@@ -1,0 +1,36 @@
+digraph AI_First_Customer_Support_HLD {
+	rankdir=TB size="10,8"
+	U [label="User
+(Text/Voice)" color="#87CEFA" shape=oval style=filled]
+	F [label="Frontend (React.js)
+Chat + Voice UI" color="#90EE90" shape=box style=filled]
+	A [label="Backend API Gateway (Flask)
+Request Routing & Processing" color="#FFD700" shape=box style=filled]
+	N [label="NLP Processor
+Text Cleaning + Tokenization" color="#FFB6C1" shape=box style=filled]
+	M [label="ML Engine
+(Intent Classification + Response Generation + Sentiment Detection)" color="#FF7F50" shape=box style=filled]
+	C [label="Context Manager
+Maintains Conversation Memory" color="#DDA0DD" shape=box style=filled]
+	E [label="Escalation Handler
+(Human Support)" color="#FFA07A" shape=box style=filled]
+	R [label="Response to User
+(Text/Voice Output)" color="#87CEFA" shape=oval style=filled]
+	S1 [label="SpeechRecognition
+(Voice → Text)" color="#E6E6FA" shape=ellipse style=filled]
+	S2 [label="pyttsx3
+(Text → Speech)" color="#E6E6FA" shape=ellipse style=filled]
+	U -> S1 [label="Voice Input"]
+	U -> F [label="Text Input"]
+	S1 -> F [label="Converted Text"]
+	F -> A [label="User Query"]
+	A -> N [label=Preprocess]
+	N -> M [label="Classify Intent / Generate Response"]
+	M -> C [label="Update Context"]
+	M -> E [label="Low Confidence" color=red]
+	M -> R [label="Response Generated"]
+	E -> R [label="Human Response"]
+	R -> S2 [label="Convert to Speech"]
+	R -> U [label="Text Output"]
+	S2 -> U [label="Voice Output"]
+}

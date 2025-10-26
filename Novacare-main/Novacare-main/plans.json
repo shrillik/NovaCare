@@ -1,0 +1,34 @@
+[
+  {
+    "plan_id": "P199",
+    "price": 199,
+    "data_per_day": 1,
+    "validity_days": 28,
+    "type": "prepaid",
+    "description": "1GB/day, Unlimited Calls, 100 SMS/day"
+  },
+  {
+    "plan_id": "P239",
+    "price": 239,
+    "data_per_day": 1.5,
+    "validity_days": 28,
+    "type": "prepaid",
+    "description": "1.5GB/day, Unlimited Calls, 100 SMS/day"
+  },
+  {
+    "plan_id": "P499",
+    "price": 499,
+    "data_per_day": 2,
+    "validity_days": 56,
+    "type": "prepaid",
+    "description": "2GB/day, Unlimited Calls, Disney+ Hotstar Free"
+  },
+  {
+    "plan_id": "P666",
+    "price": 666,
+    "data_per_day": 1.5,
+    "validity_days": 84,
+    "type": "prepaid",
+    "description": "1.5GB/day, Unlimited Calls, Free SMS"
+  }
+]

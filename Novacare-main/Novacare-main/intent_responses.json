@@ -1,0 +1,184 @@
+{
+  "network_issue": {
+    "intent": "network_issue",
+    "message": "I understand your internet is slow or you're facing connectivity problems. Let's try a few troubleshooting steps.",
+    "steps": [
+      {"id": "restart", "text": "Restart your phone: power off → wait 10 seconds → power on.", "type": "instruction"},
+      {"id": "airplane", "text": "Toggle Airplane Mode on for 10 seconds, then turn it off.", "type": "instruction"},
+      {"id": "clear_cache", "text": "Clear app and browser cache: Settings → Apps → Storage → Clear Cache.", "type": "instruction"},
+      {"id": "sim_slot", "text": "Reinsert your SIM in slot 1 (primary slot).", "type": "instruction"},
+      {"id": "network_mode", "text": "Ensure preferred network mode: 4G/3G.", "type": "instruction"},
+      {"id": "apn", "text": "Check APN settings: verify they match your provider’s default values.", "type": "instruction"},
+      {"id": "speed_test", "text": "Run a speed test to check your connection speed.", "type": "action", "url": "https://fast.com"},
+      {"id": "coverage", "text": "Check if there’s a network outage in your area.", "type": "instruction"}
+    ],
+    "follow_up_prompts": [
+      "Did this fix your connectivity? Reply 'yes' or 'no'.",
+      "Still slow? Type 'still slow' to escalate to a human agent."
+    ],
+    "escalate": {
+      "should_escalate": false,
+      "reason": "User reports issue persists after all steps.",
+      "agent_instructions": "Collect location, signal bars, IMEI, and coverage info before escalation."
+    },
+    "quick_actions": [
+      {"id": "run_speed_test", "label": "Run Speed Test", "type": "action", "url": "https://fast.com"},
+      {"id": "report_outage", "label": "Report Outage", "type": "escalation"},
+      {"id": "contact_agent", "label": "Contact Agent", "type": "escalation"}
+    ]
+  },
+
+  "billing_complaint": {
+    "intent": "billing_complaint",
+    "message": "I see you’re facing an issue with your bill. Let's look into it together.",
+    "steps": [
+      {"id": "verify_number", "text": "Please share your registered mobile number.", "type": "instruction"},
+      {"id": "check_payment", "text": "Verify if your last payment was successful in your bank app.", "type": "instruction"},
+      {"id": "view_bill", "text": "View your detailed bill in My Bills section of the app.", "type": "instruction"}
+    ],
+    "follow_up_prompts": [
+      "Do you see any duplicate charges?",
+      "Would you like to raise a billing ticket?"
+    ],
+    "escalate": {
+      "should_escalate": false,
+      "reason": "User reports incorrect charge or missing payment after verification.",
+      "agent_instructions": "Collect account number, billing cycle, and transaction ID."
+    },
+    "quick_actions": [
+      {"id": "open_bill", "label": "View My Bill", "type": "action", "url": "https://telecomapp.com/mybills"},
+      {"id": "raise_ticket", "label": "Raise Billing Complaint", "type": "escalation"}
+    ]
+  },
+
+  "check_bill": {
+    "intent": "check_bill",
+    "message": "Let’s check your latest bill details.",
+    "steps": [
+      {"id": "fetch_bill", "text": "Your latest bill was ₹799, generated on 5th Oct.", "type": "info"},
+      {"id": "download_bill", "text": "You can download it from the app: My Bills → Download PDF.", "type": "instruction"}
+    ],
+    "follow_up_prompts": [
+      "Do you want to see a detailed breakdown of your bill?",
+      "Would you like to set a reminder for your next payment?"
+    ],
+    "quick_actions": [
+      {"id": "download_bill", "label": "Download Bill PDF", "type": "action", "url": "https://telecomapp.com/mybills"}
+    ]
+  },
+
+  "check_balance": {
+    "intent": "check_balance",
+    "message": "Here’s your current account summary.",
+    "steps": [
+      {"id": "main_balance", "text": "Your main balance is ₹157, valid till 28 Oct 2025.", "type": "info"},
+      {"id": "data_balance", "text": "You have 3.5GB data remaining.", "type": "info"}
+    ],
+    "follow_up_prompts": [
+      "Would you like to recharge your account?",
+      "Do you want to activate auto-recharge?"
+    ],
+    "quick_actions": [
+      {"id": "recharge_now", "label": "Recharge Now", "type": "action", "url": "https://telecomapp.com/recharge"}
+    ]
+  },
+
+  "recharge": {
+    "intent": "recharge",
+    "message": "You can recharge instantly using our portal or app.",
+    "steps": [
+      {"id": "portal", "text": "Visit telecomapp.com/recharge or use the app’s Recharge section.", "type": "instruction"},
+      {"id": "sms_recharge", "text": "Alternatively, send 'RECHARGE <amount>' to 12345.", "type": "instruction"}
+    ],
+    "follow_up_prompts": [
+      "Would you like to see recommended recharge packs?",
+      "Do you want to set up auto-recharge?"
+    ],
+    "quick_actions": [
+      {"id": "open_recharge", "label": "Recharge Now", "type": "action", "url": "https://telecomapp.com/recharge"}
+    ]
+  },
+
+  "plan_change": {
+    "intent": "plan_change",
+    "message": "You can easily switch to a different data plan.",
+    "steps": [
+      {"id": "show_plans", "text": "We have 5GB plan at ₹299 and 10GB plan at ₹499 per month.", "type": "info"},
+      {"id": "change_plan", "text": "Go to My Plans → Change Plan → Select desired plan.", "type": "instruction"}
+    ],
+    "follow_up_prompts": [
+      "Would you like me to upgrade your plan now?",
+      "Do you want to compare plan benefits?"
+    ],
+    "quick_actions": [
+      {"id": "compare_plans", "label": "Compare Plans", "type": "action", "url": "https://telecomapp.com/plans"},
+      {"id": "upgrade_plan", "label": "Upgrade Plan", "type": "action"}
+    ]
+  },
+
+  "account_help": {
+    "intent": "account_help",
+    "message": "I can help you with your account details or updates.",
+    "steps": [
+      {"id": "profile_update", "text": "To update your details: App → Profile → Edit Information.", "type": "instruction"},
+      {"id": "verify_number", "text": "Ensure your registered number is verified.", "type": "instruction"}
+    ],
+    "follow_up_prompts": [
+      "Would you like to update your email or address?",
+      "Do you want to change your password?"
+    ],
+    "quick_actions": [
+      {"id": "open_profile", "label": "Open Profile Settings", "type": "action", "url": "https://telecomapp.com/profile"}
+    ]
+  },
+
+  "plan_inquiry": {
+    "intent": "plan_inquiry",
+    "message": "Here are our most popular plans:",
+    "steps": [
+      {"id": "unlimited", "text": "Unlimited Plan — ₹199/month, unlimited calls + 2GB/day.", "type": "info"},
+      {"id": "5gb", "text": "5GB Plan — ₹299/month, 5GB data + 500 mins calls.", "type": "info"},
+      {"id": "10gb", "text": "10GB Plan — ₹499/month, 10GB data + unlimited calls.", "type": "info"}
+    ],
+    "follow_up_prompts": [
+      "Would you like to activate one of these plans?",
+      "Want to see family plan options?"
+    ],
+    "quick_actions": [
+      {"id": "view_offers", "label": "View Current Offers", "type": "action", "url": "https://telecomapp.com/offers"}
+    ]
+  },
+
+  "cancel_subscription": {
+    "intent": "cancel_subscription",
+    "message": "I can help you cancel your active subscription.",
+    "steps": [
+      {"id": "confirm_cancel", "text": "Please confirm that you want to cancel your plan.", "type": "confirmation"},
+      {"id": "final_notice", "text": "Your cancellation will be processed within 24 hours.", "type": "info"}
+    ],
+    "follow_up_prompts": [
+      "Would you like to speak with a retention specialist before canceling?",
+      "Do you want to pause instead of canceling your plan?"
+    ],
+    "quick_actions": [
+      {"id": "cancel_now", "label": "Confirm Cancellation", "type": "action"},
+      {"id": "contact_retention", "label": "Talk to Retention Team", "type": "escalation"}
+    ]
+  },
+
+  "roaming_help": {
+    "intent": "roaming_help",
+    "message": "I can guide you to enable roaming and understand its charges.",
+    "steps": [
+      {"id": "enable_roaming", "text": "Go to Settings → Mobile Network → Enable Roaming.", "type": "instruction"},
+      {"id": "check_charges", "text": "Roaming charges vary by country. Visit telecomapp.com/roaming.", "type": "instruction"}
+    ],
+    "follow_up_prompts": [
+      "Would you like me to enable international roaming for you?",
+      "Do you want to check roaming rates for your destination?"
+    ],
+    "quick_actions": [
+      {"id": "check_roaming", "label": "Check Roaming Rates", "type": "action", "url": "https://telecomapp.com/roaming"}
+    ]
+  }
+}

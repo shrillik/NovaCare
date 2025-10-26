@@ -1,0 +1,501 @@
+query,intent
+How do I use my phone abroad?,roaming_help
+Data plans info,plan_inquiry
+Show me my last bill please,check_bill
+I want to check my bill,check_bill
+Can you upgrade to 5gb plan?,plan_change
+Account balance,check_balance
+Switch my plan please,plan_change
+Can you switch my plan?,plan_change
+Change my data plan,plan_change
+Roaming charges info,roaming_help
+Switch my plan please,plan_change
+Top up 50 INR,recharge
+Internet not working please,network_issue
+Give me 10GB data plan please,plan_inquiry
+Show me my last bill please,check_bill
+Stop my service please,cancel_subscription
+What plans are available?,plan_inquiry
+Add balance to my number please,recharge
+I want to check my bill,check_bill
+How much do I owe this month?,check_bill
+How much do I owe this month?,check_bill
+Account balance please,check_balance
+Stop my service,cancel_subscription
+Can you how do i change my registered number??,account_help
+I want to unsubscribe,cancel_subscription
+I was overcharged,billing_complaint
+Incorrect bill amount,billing_complaint
+How do I use my phone abroad? please,roaming_help
+Can you cancel my subscription please?,cancel_subscription
+Can you i want to unsubscribe please?,cancel_subscription
+Incorrect bill amount please,billing_complaint
+I want to check my bill,check_bill
+I was overcharged,billing_complaint
+Can you how do i change my registered number??,account_help
+Can you roaming charges info please?,roaming_help
+I want to unsubscribe,cancel_subscription
+Can you roaming charges info please?,roaming_help
+How do I change my registered number? please,account_help
+Can you switch my plan?,plan_change
+Account balance please,check_balance
+I want to unsubscribe,cancel_subscription
+Can you how do i use my phone abroad??,roaming_help
+Stop my service,cancel_subscription
+Top up 50 INR please,recharge
+Change my data plan,plan_change
+Show me recharge plans for 500 rupees,plan_inquiry
+Show me my last bill,check_bill
+Can you recharge my account with 200 inr?,recharge
+I was overcharged please,billing_complaint
+Show me my last bill please,check_bill
+Can you recharge my account with 200 inr?,recharge
+Can you change my data plan?,plan_change
+Check my remaining balance,check_balance
+Can you stop my service?,cancel_subscription
+Can you internet plan valid for 7 days?,plan_inquiry
+Internet not working please,network_issue
+Roaming charges info,roaming_help
+Stop my service,cancel_subscription
+Can you top up 50 inr please?,recharge
+Stop my service,cancel_subscription
+Give me 10GB data plan please,plan_inquiry
+Change my data plan please,plan_change
+My network is down please,network_issue
+Stop my service,cancel_subscription
+Can you my network is down?,network_issue
+Can you upgrade to 5gb plan?,plan_change
+Which plan should I choose for 1000 INR?,plan_inquiry
+Can you update account info?,account_help
+Which plan should I choose for 1000 INR?,plan_inquiry
+Show me my last bill,check_bill
+Can you how much do i owe this month? please?,check_bill
+Can you upgrade to 5gb plan?,plan_change
+Upgrade to 5GB plan,plan_change
+Which plan should I choose for 1000 INR?,plan_inquiry
+I want to check my bill please,check_bill
+Can you give me 10gb data plan please?,plan_inquiry
+Activate roaming please,roaming_help
+Can you no signal at home?,network_issue
+Switch my plan,plan_change
+No signal at home,network_issue
+Top up 50 INR please,recharge
+Can you switch my plan?,plan_change
+I want to unsubscribe,cancel_subscription
+No signal at home,network_issue
+I want to unsubscribe,cancel_subscription
+How do I use my phone abroad?,roaming_help
+Can you why is my bill so high??,billing_complaint
+Can you switch my plan please?,plan_change
+How do I change my registered number?,account_help
+Data plans info,plan_inquiry
+I want to unsubscribe,cancel_subscription
+Check my remaining balance,check_balance
+Internet plan valid for 7 days,plan_inquiry
+Roaming charges info,roaming_help
+Can you check my remaining balance?,check_balance
+Internet not working,network_issue
+I want 1.5GB per day for 30 days please,plan_inquiry
+Roaming charges info,roaming_help
+Recharge my account with 200 INR,recharge
+Can you internet not working?,network_issue
+Can you no signal at home please?,network_issue
+How do I use my phone abroad?,roaming_help
+Why is my bill so high?,billing_complaint
+Update account info,account_help
+Stop my service,cancel_subscription
+Switch my plan,plan_change
+How much do I owe this month?,check_bill
+Add balance to my number,recharge
+Add balance to my number please,recharge
+Recharge my account with 200 INR please,recharge
+Can you change my data plan please?,plan_change
+Why is my bill so high?,billing_complaint
+Internet plan valid for 7 days,plan_inquiry
+Show me my last bill,check_bill
+I want to unsubscribe,cancel_subscription
+How do I change my registered number?,account_help
+How do I change my registered number? please,account_help
+How much do I owe this month?,check_bill
+Reset my account password please,account_help
+Can you activate roaming?,roaming_help
+Roaming charges info please,roaming_help
+Cancel my subscription,cancel_subscription
+Why is my bill so high?,billing_complaint
+I want to unsubscribe,cancel_subscription
+Account balance,check_balance
+I was overcharged please,billing_complaint
+How much balance do I have? please,check_balance
+Cancel my subscription please,cancel_subscription
+Can you how much do i owe this month??,check_bill
+Roaming charges info,roaming_help
+How do I use my phone abroad?,roaming_help
+Can you i want to unsubscribe please?,cancel_subscription
+Reset my account password please,account_help
+I want to unsubscribe please,cancel_subscription
+Can you give me 10gb data plan please?,plan_inquiry
+Upgrade to 5GB plan,plan_change
+Give me 10GB data plan please,plan_inquiry
+Can you change my data plan please?,plan_change
+Update account info please,account_help
+Internet plan valid for 7 days please,plan_inquiry
+Can you how much balance do i have? please?,check_balance
+My network is down please,network_issue
+Show me my last bill please,check_bill
+I want to unsubscribe,cancel_subscription
+Can you upgrade to 5gb plan?,plan_change
+Recharge my account with 200 INR,recharge
+Can you how much do i owe this month??,check_bill
+Top up 50 INR please,recharge
+Top up 50 INR,recharge
+Incorrect bill amount,billing_complaint
+How do I use my phone abroad? please,roaming_help
+Incorrect bill amount,billing_complaint
+Account balance,check_balance
+I was overcharged,billing_complaint
+Upgrade to 5GB plan,plan_change
+I want to check my bill,check_bill
+Can you why is my bill so high??,billing_complaint
+Can you activate roaming?,roaming_help
+How do I change my registered number? please,account_help
+Change my data plan,plan_change
+Add balance to my number please,recharge
+I was overcharged,billing_complaint
+Account balance,check_balance
+Incorrect bill amount please,billing_complaint
+Data plans info,plan_inquiry
+Add balance to my number,recharge
+How do I use my phone abroad?,roaming_help
+Can you how much balance do i have??,check_balance
+I was overcharged,billing_complaint
+Change my data plan please,plan_change
+I want to check my bill,check_bill
+Activate roaming,roaming_help
+Can you recharge my account with 200 inr?,recharge
+Change my data plan,plan_change
+Check my remaining balance please,check_balance
+I want 1.5GB per day for 30 days,plan_inquiry
+Can you internet plan valid for 7 days?,plan_inquiry
+Add balance to my number,recharge
+How much balance do I have?,check_balance
+My network is down please,network_issue
+Switch my plan,plan_change
+How much balance do I have?,check_balance
+Activate roaming,roaming_help
+Check my remaining balance,check_balance
+Activate roaming,roaming_help
+Top up 50 INR,recharge
+Can you internet not working please?,network_issue
+Add balance to my number,recharge
+Internet plan valid for 7 days,plan_inquiry
+Can you check my remaining balance please?,check_balance
+Can you how do i use my phone abroad??,roaming_help
+Can you reset my account password?,account_help
+Switch my plan,plan_change
+Top up 50 INR,recharge
+My network is down,network_issue
+Can you internet not working?,network_issue
+Can you top up 50 inr please?,recharge
+How much do I owe this month?,check_bill
+Can you cancel my subscription?,cancel_subscription
+My network is down,network_issue
+Show me recharge plans for 500 rupees please,plan_inquiry
+Switch my plan,plan_change
+Activate roaming,roaming_help
+Internet not working,network_issue
+Can you no signal at home?,network_issue
+Can you i want to check my bill please?,check_bill
+Why is my bill so high?,billing_complaint
+Internet not working,network_issue
+Can you check my remaining balance?,check_balance
+Check my remaining balance,check_balance
+What plans are available? please,plan_inquiry
+Can you internet not working?,network_issue
+Can you how do i change my registered number? please?,account_help
+How do I change my registered number?,account_help
+I was overcharged,billing_complaint
+How much balance do I have? please,check_balance
+Can you give me 10gb data plan?,plan_inquiry
+Stop my service,cancel_subscription
+Can you show me my last bill please?,check_bill
+Recharge my account with 200 INR,recharge
+My network is down,network_issue
+Update account info,account_help
+Roaming charges info,roaming_help
+Can you my network is down?,network_issue
+Can you i want to check my bill?,check_bill
+Check my remaining balance please,check_balance
+Change my data plan please,plan_change
+Why is my bill so high? please,billing_complaint
+Cancel my subscription please,cancel_subscription
+Account balance please,check_balance
+No signal at home,network_issue
+Can you why is my bill so high? please?,billing_complaint
+How do I change my registered number?,account_help
+Internet not working please,network_issue
+Can you incorrect bill amount?,billing_complaint
+Can you switch my plan?,plan_change
+Can you reset my account password?,account_help
+Roaming charges info,roaming_help
+Update account info please,account_help
+Add balance to my number,recharge
+I want to check my bill please,check_bill
+Activate roaming,roaming_help
+Check my remaining balance please,check_balance
+How do I change my registered number?,account_help
+Account balance,check_balance
+My network is down,network_issue
+I want to unsubscribe,cancel_subscription
+Cancel my subscription please,cancel_subscription
+Can you internet not working?,network_issue
+Roaming charges info,roaming_help
+Why is my bill so high? please,billing_complaint
+Can you change my data plan?,plan_change
+I want to unsubscribe,cancel_subscription
+How much balance do I have? please,check_balance
+Why is my bill so high?,billing_complaint
+Account balance,check_balance
+Upgrade to 5GB plan,plan_change
+Change my data plan,plan_change
+Check my remaining balance please,check_balance
+How do I use my phone abroad? please,roaming_help
+How do I change my registered number?,account_help
+What plans are available?,plan_inquiry
+Cancel my subscription,cancel_subscription
+I want to check my bill,check_bill
+I want to unsubscribe please,cancel_subscription
+Why is my bill so high? please,billing_complaint
+How do I change my registered number?,account_help
+Stop my service please,cancel_subscription
+Reset my account password please,account_help
+Can you i was overcharged?,billing_complaint
+Data plans info please,plan_inquiry
+How much balance do I have?,check_balance
+Can you incorrect bill amount?,billing_complaint
+Can you recharge my account with 200 inr?,recharge
+How do I use my phone abroad? please,roaming_help
+Why is my bill so high? please,billing_complaint
+Reset my account password please,account_help
+Recharge my account with 200 INR,recharge
+Account balance,check_balance
+Give me 10GB data plan,plan_inquiry
+Roaming charges info,roaming_help
+Change my data plan please,plan_change
+No signal at home,network_issue
+Top up 50 INR,recharge
+Show me your plans,plan_inquiry
+Stop my service,cancel_subscription
+Show me my last bill please,check_bill
+Add balance to my number,recharge
+My network is down please,network_issue
+Add balance to my number,recharge
+Can you upgrade to 5gb plan?,plan_change
+Can you how do i change my registered number??,account_help
+Show me recharge plans for 500 rupees,plan_inquiry
+How do I use my phone abroad? please,roaming_help
+Switch my plan,plan_change
+Can you recharge my account with 200 inr?,recharge
+Can you internet not working?,network_issue
+Reset my account password,account_help
+Cancel my subscription please,cancel_subscription
+How much balance do I have?,check_balance
+Can you i want to unsubscribe?,cancel_subscription
+Data plans info please,plan_inquiry
+Incorrect bill amount please,billing_complaint
+Incorrect bill amount,billing_complaint
+Account balance,check_balance
+How do I change my registered number?,account_help
+How do I use my phone abroad? please,roaming_help
+How much balance do I have? please,check_balance
+Upgrade to 5GB plan,plan_change
+My network is down please,network_issue
+Why is my bill so high? please,billing_complaint
+How much do I owe this month?,check_bill
+Show me my last bill,check_bill
+Can you show me your plans?,plan_inquiry
+Incorrect bill amount,billing_complaint
+Activate roaming,roaming_help
+Cancel my subscription,cancel_subscription
+Can you activate roaming?,roaming_help
+How much do I owe this month?,check_bill
+Top up 50 INR,recharge
+Stop my service please,cancel_subscription
+How do I change my registered number?,account_help
+I want to check my bill,check_bill
+Update account info please,account_help
+Stop my service,cancel_subscription
+Roaming charges info,roaming_help
+Update account info,account_help
+Can you top up 50 inr please?,recharge
+Stop my service,cancel_subscription
+Show me my last bill please,check_bill
+How do I use my phone abroad? please,roaming_help
+Why is my bill so high?,billing_complaint
+Top up 50 INR,recharge
+How much balance do I have?,check_balance
+Top up 50 INR,recharge
+Change my data plan,plan_change
+Can you my network is down?,network_issue
+Show me my last bill,check_bill
+Check my remaining balance,check_balance
+How do I change my registered number?,account_help
+Can you stop my service please?,cancel_subscription
+I want to check my bill,check_bill
+Internet not working,network_issue
+Can you internet not working please?,network_issue
+Add balance to my number please,recharge
+Can you recharge my account with 200 inr?,recharge
+Upgrade to 5GB plan please,plan_change
+No signal at home please,network_issue
+Can you i was overcharged please?,billing_complaint
+Update account info,account_help
+Activate roaming please,roaming_help
+Can you change my data plan?,plan_change
+I want to check my bill please,check_bill
+I want to check my bill,check_bill
+Change my data plan,plan_change
+Add balance to my number,recharge
+Can you reset my account password?,account_help
+Stop my service please,cancel_subscription
+Incorrect bill amount,billing_complaint
+Activate roaming,roaming_help
+Show me your plans please,plan_inquiry
+Can you what plans are available??,plan_inquiry
+Top up 50 INR,recharge
+Stop my service please,cancel_subscription
+How do I use my phone abroad? please,roaming_help
+Update account info,account_help
+How much balance do I have?,check_balance
+Change my data plan,plan_change
+Account balance,check_balance
+Activate roaming please,roaming_help
+I want 1.5GB per day for 30 days,plan_inquiry
+Can you change my data plan?,plan_change
+Reset my account password,account_help
+Account balance,check_balance
+Can you update account info please?,account_help
+My network is down,network_issue
+Internet not working,network_issue
+How do I use my phone abroad? please,roaming_help
+Can you internet plan valid for 7 days?,plan_inquiry
+Recharge my account with 200 INR,recharge
+Activate roaming,roaming_help
+Can you change my data plan please?,plan_change
+How do I use my phone abroad?,roaming_help
+Account balance,check_balance
+Show me recharge plans for 500 rupees,plan_inquiry
+Can you i want to unsubscribe please?,cancel_subscription
+Can you roaming charges info?,roaming_help
+Reset my account password,account_help
+Can you give me 10gb data plan?,plan_inquiry
+Update account info please,account_help
+How much balance do I have? please,check_balance
+Show me your plans please,plan_inquiry
+Can you why is my bill so high? please?,billing_complaint
+Can you which plan should i choose for 1000 inr??,plan_inquiry
+How do I change my registered number?,account_help
+Incorrect bill amount,billing_complaint
+Incorrect bill amount,billing_complaint
+Can you switch my plan?,plan_change
+Update account info,account_help
+Can you how do i change my registered number??,account_help
+Can you no signal at home?,network_issue
+Reset my account password,account_help
+Check my remaining balance please,check_balance
+Why is my bill so high? please,billing_complaint
+Upgrade to 5GB plan,plan_change
+Incorrect bill amount,billing_complaint
+Upgrade to 5GB plan please,plan_change
+No signal at home please,network_issue
+I was overcharged,billing_complaint
+Update account info,account_help
+Show me your plans please,plan_inquiry
+Account balance,check_balance
+How much do I owe this month? please,check_bill
+I want to check my bill,check_bill
+Incorrect bill amount please,billing_complaint
+My network is down,network_issue
+Top up 50 INR please,recharge
+Can you i was overcharged?,billing_complaint
+Show me recharge plans for 500 rupees please,plan_inquiry
+How much do I owe this month?,check_bill
+Internet not working,network_issue
+Can you internet not working?,network_issue
+Can you internet not working please?,network_issue
+Incorrect bill amount,billing_complaint
+Show me my last bill,check_bill
+I was overcharged please,billing_complaint
+Can you check my remaining balance please?,check_balance
+Can you reset my account password?,account_help
+Stop my service,cancel_subscription
+No signal at home,network_issue
+Top up 50 INR,recharge
+Give me 10GB data plan please,plan_inquiry
+Can you stop my service?,cancel_subscription
+How do I change my registered number? please,account_help
+I want to unsubscribe,cancel_subscription
+Account balance,check_balance
+Cancel my subscription please,cancel_subscription
+What plans are available?,plan_inquiry
+Add balance to my number,recharge
+Show me my last bill,check_bill
+I want to check my bill please,check_bill
+Update account info,account_help
+Which plan should I choose for 1000 INR? please,plan_inquiry
+I was overcharged,billing_complaint
+Recharge my account with 200 INR,recharge
+Check my remaining balance please,check_balance
+Can you add balance to my number please?,recharge
+I want to check my bill please,check_bill
+Can you no signal at home?,network_issue
+Why is my bill so high?,billing_complaint
+How much do I owe this month?,check_bill
+Can you recharge my account with 200 inr?,recharge
+Which plan should I choose for 1000 INR?,plan_inquiry
+Cancel my subscription,cancel_subscription
+No signal at home,network_issue
+Can you how much do i owe this month??,check_bill
+How do I change my registered number?,account_help
+Data plans info,plan_inquiry
+Stop my service,cancel_subscription
+Update account info please,account_help
+I want to check my bill,check_bill
+Recharge my account with 200 INR,recharge
+How do I change my registered number?,account_help
+Activate roaming,roaming_help
+Data plans info,plan_inquiry
+My network is down please,network_issue
+Add balance to my number,recharge
+My network is down please,network_issue
+No signal at home,network_issue
+Can you how much do i owe this month? please?,check_bill
+My network is down please,network_issue
+Switch my plan,plan_change
+Can you i was overcharged?,billing_complaint
+What plans are available?,plan_inquiry
+Can you internet plan valid for 7 days?,plan_inquiry
+Switch my plan please,plan_change
+How much balance do I have?,check_balance
+Can you switch my plan?,plan_change
+Incorrect bill amount,billing_complaint
+How much balance do I have?,check_balance
+Can you how much do i owe this month??,check_bill
+Roaming charges info please,roaming_help
+How much balance do I have?,check_balance
+Recharge my account with 200 INR,recharge
+How do I change my registered number? please,account_help
+Internet not working,network_issue
+Check my remaining balance please,check_balance
+Account balance,check_balance
+What plans are available? please,plan_inquiry
+I want to check my bill please,check_bill
+Incorrect bill amount,billing_complaint
+Top up 50 INR please,recharge
+How do I use my phone abroad? please,roaming_help
+Cancel my subscription please,cancel_subscription
+Activate roaming,roaming_help
+Can you how much balance do i have??,check_balance
+Add balance to my number,recharge
+Upgrade to 5GB plan,plan_change
+How do I use my phone abroad? please,roaming_help
+Can you how much do i owe this month? please?,check_bill
